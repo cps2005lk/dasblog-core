@@ -7,6 +7,9 @@ on:
   push:
     branches:
       - main
+defaults:
+  run:
+    working-directory: source
 
 jobs:
   build-and-deploy:
